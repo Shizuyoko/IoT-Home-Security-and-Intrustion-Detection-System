@@ -17,7 +17,7 @@ The ESP32 serves as the core microcontroller for the system, handling sensor inp
 Serves as the foundation for the initial hardware prototype, allowing the circuit to be assembled, tested, and refined before moving to a permanent layout. It provides a flexible environment for connecting the ESP32, sensors, and output components while validating the system’s behaviour during early development.
 
 
-▶️ **Sensors (PIR):**
+▶️ **Motion Sensor (PIR):**
 
 The system incorporates a dedicated motion‑detection sensor to monitor activity within the environment, allowing the ESP32 to respond instantly whenever movement is detected. This component forms the core of the security logic, enabling real‑time alerts and automated system behaviour.
 
