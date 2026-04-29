@@ -46,6 +46,8 @@ This provides an immediate visual reference for the user, even at a distance.
 
 ▶️ **LCD (Liquid Crystal Display) :**
 
+The 16×2 LCD module displays real‑time system information such as arming state, motion alerts, door status, and keypad input. It allows the user to interact with the system without needing a phone or computer, making the device fully standalone and easy to operate.
+
 ▶️ **KEYPAD :**
 
-
+The 4×4 keypad enables secure user input for arming and disarming the system. It supports PIN‑based authentication, ensuring that only authorised users can change the system state. The LCD is also fitted with a CLEAR INPUT feature, if the initial input had been entered incorrectly, by the current user. 
