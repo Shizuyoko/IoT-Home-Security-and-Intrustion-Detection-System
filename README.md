@@ -32,3 +32,20 @@ The LEDs provide clear visual feedback during system operation, indicating state
 The piezo alarm provides the system’s audible alert, activating whenever motion is detected or when the device enters an alarm state. Its sharp, high‑frequency tone ensures that any triggered event is immediately noticeable during both testing and real‑world operation. (Alarm is triggered every 1,000 milliseconds during testing)..
 
 
+▶️ **RGB LED :**
+
+The RGB LED acts as the system’s primary alarm status and alert indicator, using colour to communicate the current operating mode.
+
+- Green → System armed and monitoring
+
+- Red → Alarm active
+
+- Yellow → System disarmed
+
+This provides an immediate visual reference for the user, even at a distance.
+
+▶️ **LCD (Liquid Crystal Display) :**
+
+▶️ **KEYPAD :**
+
+
