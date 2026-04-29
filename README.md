@@ -29,6 +29,6 @@ The LEDs provide clear visual feedback during system operation, indicating state
 
 ▶️ **Alarm (Piezo) :**
 
-The piezo alarm provides the system’s audible alert, activating whenever motion is detected or when the device enters an alarm state. Its sharp, high‑frequency tone ensures that any triggered event is immediately noticeable during both testing and real‑world operation. (Alarm is triggered every 1,000 milliseconds during testing).
+The piezo alarm provides the system’s audible alert, activating whenever motion is detected or when the device enters an alarm state. Its sharp, high‑frequency tone ensures that any triggered event is immediately noticeable during both testing and real‑world operation. (Alarm is triggered every 1,000 milliseconds during testing)..
 
 
