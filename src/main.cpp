@@ -1,3 +1,4 @@
+
 #include <Arduino.h>
 #include <LiquidCrystal.h>
 #include <Keypad.h>
@@ -200,8 +201,7 @@ void setup()
     Serial.println("System initialized (Sensor mode ACTIVATED)");
 }
 
-void loop()
-{
+void loop() {
     char key = keypad.getKey();
 
     if (key)
@@ -296,7 +296,7 @@ void loop()
             delay(500);
 
             // 3. Send event payload to Evan's backend
-             sendAlertToBackend("motion");
+            sendAlertToBackend("motion");
 
             // 4. Activate siren
             playSiren();
@@ -371,7 +371,7 @@ void loop()
         }
         else
         {
-        lcd.print("             "); // Bottom LCD line blank in DISARMED mode
+            lcd.print("             "); // Bottom LCD line blank in DISARMED mode
         }
     }
 
