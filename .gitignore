@@ -1,1 +1,90 @@
-.pio
+# -------------------------
+# PLATFORMIO / ESP32
+# -------------------------
+.pio/
+.pioenvs/
+.piolibdeps/
+.pio/libdeps/
+.pio/build/
+.pio/test/
+.pio/.cache/
+
+# PlatformIO build artifacts
+**/.pio/
+**/.pioenvs/
+**/.piolibdeps/
+**/.cache/
+
+# Firmware binaries
+*.bin
+*.elf
+*.map
+
+# -------------------------
+# CLION / CMAKE
+# -------------------------
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# JetBrains IDE
+.idea/
+*.iml
+
+# -------------------------
+# PYTHON BACKEND
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+env/
+instance/
+uploads/tmp/
+uploads/*.tmp
+
+# Flask debug logs
+*.log
+
+# -------------------------
+# NODE / REACT FRONTEND
+# -------------------------
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+dist/
+build/
+
+# -------------------------
+# SECRETS (VERY IMPORTANT)
+# -------------------------
+secrets.json
+secret.json
+config.json
+*.env
+.env.*
+wifi_credentials.h
+local_settings.py
+
+# -------------------------
+# OS / EDITOR JUNK
+# -------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# -------------------------
+# IMAGES / SNAPSHOTS
+# (Don't want these in GitHub for security reasons)
+# -------------------------
+uploads/*.jpg
+uploads/*.jpeg
+uploads/*.png
+uploads/latest.jpg
