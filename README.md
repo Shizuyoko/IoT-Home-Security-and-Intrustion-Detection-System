@@ -1,12 +1,15 @@
-## <img src="https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/outline/video-camera.svg" width="32" /> IoT Home Security & Intrusion Detection System
+## IoT Home Security & Intrusion Detection System
 
-A smart, low‑power home security system built using the ESP32 platform, featuring motion detection, LED indicators, and an audible alarm. The system is designed as a full‑stack IoT solution, with firmware running on the ESP32, backend services for alert handling, and a user‑facing dashboard for monitoring events.
+A smart, low‑power home security system built using the ESP32 platform, featuring motion detection, door detection, motion triggered snapshots, LED indicators, LCD alarm-state messages and an audible buzzer alarm. The system is designed as a complete end‑to‑end IoT project, containing ESP32 firmware, backend alert‑handling services, and a web‑based dashboard for monitoring events.
 
 
 
- ### <img src="https://cdn.simpleicons.org/espressif/red" width="40" /> Espressif ESP32
+ ### <img src="https://cdn.simpleicons.org/espressif/red" width="40" /> Espressif ESP32 DevKit
 
-The ESP32 serves as the core microcontroller for the system, handling sensor input, device control, and communication with backend services. Its built‑in Wi‑Fi capabilities make it ideal for IoT applications requiring real‑time monitoring and remote interaction.
+The ESP32 serves as the central microcontroller for the system, coordinating all sensor inputs, device outputs, and communication flows. It continuously monitors the PIR motion sensor, door switch, and keypad, processes events locally, and triggers visual or audible alerts when required. Its dual‑core architecture allows the device to handle real‑time tasks—such as reading sensors and updating alarm states—while simultaneously managing Wi‑Fi communication with the backend. The ESP32 sends structured JSON payloads to the server whenever an event occurs, enabling reliable, low‑latency integration with the cloud dashboard. With built‑in Wi‑Fi, low power consumption, and a rich GPIO feature set, the ESP32 is ideal for responsive, always‑connected IoT security applications.
+
+## <img src="https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/outline/video-camera.svg" width="32" /> ESP32-CAM
+The ESP32‑CAM provides the visual monitoring capability of the system, delivering both a live MJPEG video stream and on‑demand snapshot capture. It connects to the same Wi‑Fi network as the main ESP32 controller and exposes lightweight HTTP endpoints that allow the backend to request images whenever motion or door events occur. This module operates independently from the alarm controller, ensuring reliable image capture without interrupting sensor processing. Its compact form factor and built‑in OV2640 camera make it ideal for low‑cost, real‑time intrusion detection in IoT environments.
 
 ### <img src="https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/outline/wrench-screwdriver.svg" width="28" /> Hardware Components 
 
